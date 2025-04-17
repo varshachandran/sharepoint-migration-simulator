@@ -10,7 +10,6 @@ A Node.js application that simulates migrating SharePoint HR data to Firebase Fi
 - [Prerequisites](#-prerequisites)
 - [Setup](#-setup)
 - [Usage](#-usage)
-- [Project Structure](#-project-structure)
 - [Viewing Data](#-viewing-data)
 - [License](#-license)
 
@@ -61,20 +60,6 @@ Expected Output:
 ✅ Created 28 positions
 ✅ Migrated 311 employees
 
-
-##  📂 Project Structure
-
-## 📂 Project Structure
-
-┏━━ 📁 sharepoint-migration-simulator/
-┃   ┣━━ 📁 data/                    # CSV data files
-┃   ┃   ┗━━ 📄 HRDataset_v14.csv    # Sample HR data
-┃   ┣━━ 📁 migrations/              # Migration scripts
-┃   ┃   ┣━━ 📄 migration.js         # Main migration logic
-┃   ┃   ┗━━ 📄 transformData.js     # Data transformation
-┃   ┣━━ 📄 .env                     # Firebase configuration
-┃   ┣━━ 📄 .gitignore               # Ignore sensitive files
-┃   ┗━━ 📄 README.md                # This file
 
 
 ##  🔍 Viewing Data
