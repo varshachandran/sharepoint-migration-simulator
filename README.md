@@ -40,9 +40,9 @@ A Node.js application that simulates migrating SharePoint HR data to Firebase Fi
 
 env
 
-FIREBASE_PROJECT_ID=your-project-id
-FIREBASE_CLIENT_EMAIL=your-client-email
-FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n..."
+- FIREBASE_PROJECT_ID=your-project-id
+- FIREBASE_CLIENT_EMAIL=your-client-email
+- FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n..."
 
 
 Place your CSV at data/HRDataset_v14.csv
@@ -64,15 +64,18 @@ Expected Output:
 
 ##  📂 Project Structure
 
-.
-├── data/                   # CSV data files
-│   └── HRDataset_v14.csv   # Sample HR data
-├── migrations/             # Migration scripts
-│   ├── migration.js        # Main migration logic
-│   └── transformData.js    # Data transformation
-├── .env                    # Firebase configuration
-├── .gitignore              # Ignore sensitive files
-└── README.md               # This file
+## 📂 Project Structure
+
+┏━━ 📁 sharepoint-migration-simulator/
+┃   ┣━━ 📁 data/                    # CSV data files
+┃   ┃   ┗━━ 📄 HRDataset_v14.csv    # Sample HR data
+┃   ┣━━ 📁 migrations/              # Migration scripts
+┃   ┃   ┣━━ 📄 migration.js         # Main migration logic
+┃   ┃   ┗━━ 📄 transformData.js     # Data transformation
+┃   ┣━━ 📄 .env                     # Firebase configuration
+┃   ┣━━ 📄 .gitignore               # Ignore sensitive files
+┃   ┗━━ 📄 README.md                # This file
+
 
 ##  🔍 Viewing Data
 
